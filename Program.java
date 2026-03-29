@@ -1,6 +1,8 @@
 public class Program {
     public static void main(String[] args) {
         System.out.println("Witaj świecie");
+        int[] values = {1, 2, 3, 4, 5, 6};
+        CalculateAverage(values);
     }
 
     public void CalculateAverage(int[] values) {
