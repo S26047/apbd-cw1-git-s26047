@@ -14,4 +14,14 @@ public class Program {
         average = (double) sum / values.length;
         System.out.println(average);
     }
+
+    public void CalculateMax(int[] values) {
+        int max = values[0];
+        for (int value : values) {
+            if (value > max) {
+                max = value;
+            }
+        }
+        System.out.println(max);
+    }
 }
