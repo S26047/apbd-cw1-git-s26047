@@ -28,10 +28,7 @@ public class Program {
 
     public void CalculateMin(int[] values) {
         int min = values[0];
-<<<<<<< HEAD
-=======
         for (int i = 0; i <= values.length; i++) {
->>>>>>> feature-conflict
             if (values[i] < min) {
                 min = values[i];
             }
