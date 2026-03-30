@@ -24,4 +24,8 @@ public class Program {
         }
         System.out.println(max);
     }
+
+    public void CalculateMin(int[] values) {
+
+    }
 }
