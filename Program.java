@@ -28,9 +28,12 @@ public class Program {
 
     public void CalculateMin(int[] values) {
         int min = values[0];
-        for (int i : values) {
-            if (value < min) {
-                min = value;
+<<<<<<< HEAD
+=======
+        for (int i = 0; i <= values.length; i++) {
+>>>>>>> feature-conflict
+            if (values[i] < min) {
+                min = values[i];
             }
         }
         System.out.println(min);
