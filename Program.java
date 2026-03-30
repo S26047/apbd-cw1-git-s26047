@@ -27,6 +27,12 @@ public class Program {
     }
 
     public void CalculateMin(int[] values) {
-
+        int min = values[0];
+        for (int value : values) {
+            if (value < min) {
+                min = value;
+            }
+        }
+        System.out.println(min);
     }
 }
